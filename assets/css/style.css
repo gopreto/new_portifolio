@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Neue Montreal", sans-serif;
+}
+
+header h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+
+header nav{
+    height: 80px;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+header nav ul li.menu{
+    display: flex;
+    gap: 3.75rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+
+    color: #111115;
+}
+
+/* SECTIONS */
+
+section.banner{
+    padding: 9.4rem 0px;
+}
+
+section.banner h1{
+    margin: 0;
+    font-size: 2.50rem;
+    font-weight: 500;
+    line-height: 3.25rem;
+    color: #111115;
+}
+
+section.selected-work h2{
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #111115;
+}
+
+div.line-through{
+    margin-top: 1.25rem;
+    height: 1.5px;
+    background-color: #BDBDC1;
+}
+
+section.selected-work .work-container{
+    padding-bottom: 1.75rem;
+}
+
+section.selected-work .work-header{
+    padding: 3rem 6rem;
+}
+
+section.selected-work .work-header h3{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #111115;
+}
+
+section.selected-work .work-header p{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #2F2F35;
+}
+
+section.selected-work .work-header span{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #97979D;
+}
+
+section.about{
+    padding: 9.4rem 0px;
+}
+
+section.about h2{
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #111115;
+}
+
+section.about p{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #111115;
+}
+
+section.about p strong{
+    font-weight: 500;
+}
+
+/* CASE SECTIONS */
+
+section.case-banner{
+    padding: 9.4rem 0px 5rem 0px;
+}
+
+section.case-banner h1{
+    margin: 0;
+    font-size: 2.50rem;
+    font-weight: 500;
+    line-height: 3.25rem;
+    color: #111115;
+}
+
+section.case-banner h2{
+    margin: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.50rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #111115;
+}
+
+section.case-banner .case-description{
+    margin-top: 5rem;
+}
+
+section.case-banner .case-description p{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #000000;
+}
+
+section.case-banner .case-informations{
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem
+}
+
+section.case-banner .case-informations h3{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #111115;
+}
+
+section.case-banner .case-informations p{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #7C7A77;
+}
+
+/* MAIN CONTENT */
+
+main.case-content .container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+main.case-content h2.case-title{
+    margin: 0;
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #111115;
+}
+
+main.case-content p.case-description{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #000000;
+}
+
+main.case-content ul.case-description-list li{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #000000;
+}
+
+main.case-content q.case-quote{
+    display: block;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #000000;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #2F2F35;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+
+footer p{
+    font-size: 1.125rem;
+    color: #E5E5E7;
+}
+
+footer nav ul li a{
+    font-size: 1.25rem;
+    color: #E5E5E7;
+}
