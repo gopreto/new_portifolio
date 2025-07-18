@@ -1,0 +1,40 @@
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width:540px){
+    section.case-banner {
+        padding: 5rem 0px 5rem 0px;
+    }
+
+    section.case-banner h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    main.case-content .container{
+        gap: 3rem;
+    }
+
+    section.case-banner .case-informations {
+        flex-direction: column;;
+    }
+
+    section.case-banner .case-informations div{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    section.case-banner .case-informations div:not(:last-child){
+        margin-bottom: 2rem;
+    }
+
+    section.case-banner .case-informations div h3{
+        margin: 0;
+    }
+
+    section.case-banner .case-informations div p{
+        text-align: right;
+    }
+}
