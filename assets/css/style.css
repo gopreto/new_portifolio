@@ -114,12 +114,12 @@ section.selected-work .work-container{
 }
 
 section.selected-work .work-header{
-    padding: 3rem 6rem;
+    padding: 4rem 6rem;
 }
 
 section.selected-work .work-header h3{
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     font-size: 2.25rem;
     font-weight: 500;
     line-height: 1;
@@ -128,7 +128,7 @@ section.selected-work .work-header h3{
 
 section.selected-work .work-header p{
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1;
@@ -170,7 +170,7 @@ section.about p strong{
 /* CASE SECTIONS */
 
 section.case-banner{
-    padding: 9.4rem 0px 5rem 0px;
+    padding: 9.4rem 0px 6.25rem 0px;
 }
 
 section.case-banner h1{
@@ -254,7 +254,7 @@ main.case-content ul.case-description-list li{
     margin: 0;
     font-size: 1.25rem;
     font-weight: 400;
-    line-height: 1.625rem;
+    line-height: 1.688rem;
     color: #000000;
 }
 
@@ -265,6 +265,21 @@ main.case-content q.case-quote{
     font-weight: 400;
     line-height: 1.625rem;
     color: #000000;
+}
+
+.border-image{
+    border-radius: 2.5rem;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.border-image.pottr{
+    border-color: #875A3E;
+}
+
+.border-image.goexpp{
+    border-color: #094835;
 }
 
 /* FOOTER */
