@@ -16,21 +16,42 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container px-2 px-md-0">
             <nav>
                 <ul>
                     <li>
-                        <a href="/">Giovanni Preto</a>
+                        <a href="./index.html">Giovanni Preto</a>
                     </li>
 
-                    <li class="menu">
-                        <a href="#!">Work</a>
-                        <a href="#!">About</a>
+                    <li class="menu d-none d-sm-flex">
+                        <a href="./index.html#work">Work</a>
+                        <a href="./index.html#about">About</a>
                         <a href="#!">Resume</a>
                     </li>
+
+                    <button class="menu-toggle d-block d-sm-none" aria-label="Toggle Menu">
+                        <img class="menu-toggle-icon" src="./assets/icons/bars.svg" alt="Open Menu Icon">
+
+                        <ul class="menu-toggle-content">
+                            <hr class="m-0">
+                            <li>
+                                <a href="./index.html#work">Work</a>
+                            </li>
+                            <hr class="m-0">
+                            <li>
+                                <a href="./index.html#about">About</a>
+                            </li>
+                            <hr class="m-0">
+                            <li>
+                                <a href="#!">Resume</a>
+                            </li>
+                            <hr class="m-0">
+                        </ul>
+                    </button>
                 </ul>
             </nav>
         </div>
@@ -50,7 +71,7 @@
         </div>
     </section>
 
-    <section class="selected-work">
+    <section id="work" class="selected-work">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -120,7 +141,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-12 mb-5">
@@ -154,14 +175,14 @@
         </div>
     </section>
 
-    <footer class="py-5">
+    <footer class="py-5 mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 d-flex align-items-center justify-content-around">
-                    <p class="fw-normal lh-1 m-0">©2025. Design and develop by Giovanni Preto</p>
+                <div class="col-12 d-flex flex-column flex-md-row align-items-md-center justify-content-around">
+                    <p class="fw-normal lh-1 m-0 mb-4 mb-md-0 text-center text-md-start">©2025. Design and develop by Giovanni Preto</p>
 
                     <nav>
-                        <ul class="m-0 p-0 list-unstyled">
+                        <ul class="m-0 p-0 list-unstyled d-flex flex-row flex-md-column justify-content-center gap-4 gap-md-0">
                             <li class="mb-3">
                                 <a href="mailto:goopreto@gmail.com" class="mb-0 fw-medium lh-1">Email</a>
                             </li>
@@ -175,5 +196,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

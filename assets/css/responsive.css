@@ -17,7 +17,8 @@
     }
 
     section.case-banner .case-informations {
-        flex-direction: column;;
+        flex-direction: column;
+        padding: 2rem 1rem;
     }
 
     section.case-banner .case-informations div{
@@ -36,5 +37,22 @@
 
     section.case-banner .case-informations div p{
         text-align: right;
+    }
+
+    section.selected-work .work-header {
+        padding: 3rem 2rem;
+    }
+
+    section.about {
+        padding: 5rem 0px;
+    }
+
+    section.banner {
+        padding: 5rem 0px;
+    }
+
+    section.banner h1 {
+        font-size: 2rem;
+        line-height: 2.25rem;
     }
 }
