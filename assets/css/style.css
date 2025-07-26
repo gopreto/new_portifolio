@@ -209,9 +209,8 @@ section.case-banner .case-informations{
     margin-bottom: 3rem
 }
 
-section.case-banner .case-informations h3{
-    margin: 0;
-    margin-bottom: 1rem;
+section.case-banner .case-informations strong{
+    display: block;
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1;
