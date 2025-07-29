@@ -3,12 +3,61 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Neue Montreal", sans-serif;
+}
+
+html.xx{
     font-size: 16px;
 }
 
+div.font-selector{
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 999999;
+    background-color: #2F2F35;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+div.font-selector p{
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+
+div.font-selector number{
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+div.font-selector button{
+    width: 100%;
+    font-size: 1rem;
+    border: 0;
+}
+
+.mb-8{
+    margin-bottom: 4rem!important;
+}
+
 header{
-    height: 100%;
-    position: relative;
+    width: 100%;
+    height: 120px;
+    
+    position: fixed;
+    top: 0px;
+    background: #FFF;
+    transition: top 0.2s ease-in-out;
+    z-index: 9999;
+}
+
+header.nav-up {
+    top: -120px;
+}
+
+header.nav-down {
+    box-shadow: 2px 2px 10px rgba(149, 157, 165, 0.2);
 }
 
 header h1{
@@ -19,7 +68,8 @@ header h1{
 }
 
 header nav{
-    height: 80px;
+    height: 120px;
+    background-color: white;
 }
 
 header nav ul{
@@ -29,7 +79,7 @@ header nav ul{
 
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -45,6 +95,11 @@ header nav ul li a{
     line-height: 1;
 
     color: #111115;
+    transition: 0.3s all;
+}
+
+header nav ul li a:hover{
+    color: gray;
 }
 
 header nav ul .menu-toggle{
@@ -63,9 +118,13 @@ header nav ul .menu-toggle .menu-toggle-content{
     width: 100%;
     height: auto;
     left: 0;
-    top: 110%;
+    top: 100%;
     background-color: #111115;
     z-index: 999;
+}
+
+header.nav-up nav ul .menu-toggle .menu-toggle-content{
+    display: none!important;
 }
 
 header nav ul .menu-toggle .menu-toggle-content a{
@@ -86,6 +145,7 @@ header nav ul .menu-toggle.active .menu-toggle-content{
 
 section.banner{
     padding: 9.4rem 0px;
+    margin-top: 6rem;
 }
 
 section.banner h1{
@@ -110,12 +170,8 @@ div.line-through{
     background-color: #BDBDC1;
 }
 
-section.selected-work .work-container{
-    padding-bottom: 1.75rem;
-}
-
 section.selected-work .work-header{
-    padding: 4rem 6rem;
+    padding: 4rem 7rem;
 }
 
 section.selected-work .work-header h3{
@@ -174,14 +230,15 @@ section.about p strong{
 /* CASE SECTIONS */
 
 section.case-banner{
-    padding: 9.4rem 0px 6.25rem 0px;
+    padding: 4rem 0px 6.25rem 0px;
+    margin-top: 7.5rem;
 }
 
 section.case-banner h1{
     margin: 0;
     font-size: 2.50rem;
     font-weight: 500;
-    line-height: 3.25rem;
+    line-height: 1.2;
     color: #111115;
 }
 
@@ -207,10 +264,10 @@ section.case-banner .case-description p{
 }
 
 section.case-banner .case-informations{
-    padding: 2rem 3rem;
+    padding: 1.5rem 0px 1.5rem 5.75rem;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 3rem
+    gap: 8rem;
+    margin-bottom: 4.75rem;
 }
 
 section.case-banner .case-informations strong{
@@ -261,6 +318,11 @@ main.case-content ul.case-description-list li{
     color: #000000;
 }
 
+main.case-content ul.case-description-list li strong{
+    font-size: 1.25rem;
+    line-height: 1.688rem;
+}
+
 main.case-content q.case-quote{
     display: block;
     margin: 0;
@@ -275,10 +337,19 @@ main.case-content q.case-quote{
     border-width: 8px;
     border-style: solid;
     border-color: transparent;
+    overflow: hidden;
+}
+
+.border-image img{
+    transform: scale(1.02);
 }
 
 .border-image.pottr{
     border-color: #875A3E;
+}
+
+.border-image.kill-that-noise{
+    border-color: #AA1017;
 }
 
 .border-image.goexpp{
@@ -301,4 +372,10 @@ footer p{
 footer nav ul li a{
     font-size: 1.25rem;
     color: #E5E5E7;
+    transition: 0.3s all;
+}
+
+footer nav ul li a:hover{
+    font-size: 1.25rem;
+    color: gray;
 }
