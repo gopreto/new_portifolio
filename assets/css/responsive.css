@@ -16,12 +16,33 @@
 }
 
 @media screen and (max-width:540px){
-    header {
-        height: 100px;
+    header.nav-up {
+        top: -85px;
+    }
+
+    header{
+        height: fit-content;
+    }
+
+    header nav {
+        height: 85px;
+        background-color: white;
+    }
+
+    header nav ul {
+        padding: 0px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    header nav ul li.menu {
+        gap: 5rem;
     }
 
     section.case-banner {
-        padding: 3rem 0px 5rem 0px;
+        padding: 5rem 0px 5rem 0px;
     }
 
     section.case-banner h1 {
@@ -55,6 +76,7 @@
 
     section.case-banner .case-informations div p{
         text-align: right;
+        max-width: 200px;
     }
 
     section.selected-work .work-header {
@@ -72,5 +94,9 @@
     section.banner h1 {
         font-size: 2rem;
         line-height: 2.25rem;
+    }
+
+    .image-same-height {
+        height: 578px;
     }
 }
