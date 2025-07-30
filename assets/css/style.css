@@ -363,7 +363,7 @@ main.case-content q.case-quote{
 .key-pages-overflow{
     overflow-x: hidden;
     overflow-y: scroll;
-    max-height: 50vh;
+    max-height: 680px;
 }
 
 .key-pages-overflow::-webkit-scrollbar {
@@ -374,7 +374,6 @@ main.case-content q.case-quote{
   background: transparent;
 }
 
-/* Handle */
 .key-pages-overflow::-webkit-scrollbar-thumb {
   background: #373385;
 }
