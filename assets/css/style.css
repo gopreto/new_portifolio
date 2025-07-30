@@ -378,6 +378,18 @@ main.case-content q.case-quote{
   background: #373385;
 }
 
+.image-label{
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.image-same-height{
+    height: 678px;
+}
+
 /* FOOTER */
 
 footer{
