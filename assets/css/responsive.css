@@ -42,7 +42,8 @@
     }
 
     section.case-banner {
-        padding: 5rem 0px 5rem 0px;
+        padding: 9rem 0px 5rem 0px;
+        margin-top: 6.5rem;
     }
 
     section.case-banner h1 {
@@ -88,7 +89,8 @@
     }
 
     section.banner {
-        padding: 5rem 0px;
+        padding: 9rem 0px;
+        margin-top: 6.5rem;
     }
 
     section.banner h1 {
