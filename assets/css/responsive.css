@@ -4,6 +4,12 @@
     }
 }
 
+@media screen and (max-width:992px){
+    .image-same-height {
+        height: auto;
+    }
+}
+
 @media screen and (max-width:768px){
     section.case-banner .case-informations{
         gap: 2rem;
